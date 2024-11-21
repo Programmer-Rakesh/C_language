@@ -1,23 +1,16 @@
 #include <stdio.h>
 
 int main(){
+   int num, factorial = 1;
 
-    // 1 - option a
-    // 2 - option a
-    // 3 - option e
-    // 4 - option d
-    // 5 - option c
-    // 6 - option a
-    // 8 - option d
-    // 9 - option d
-    // 10 - option d
+   printf("Entre a number: ");
+   scanf("%d", &num);
 
-    // float q = 'a';
-    // printf("%f", q);
+   for (int i = 1; i <= num; i++){
+    factorial *= i;
+   } 
 
-    int x =5;
-    int y = (x++) + (x++);
-    printf("%d", y);
+   printf("Factoria of %d is %d\n", num, factorial);
 
-    return 0;        
+   return 0;
 }
