@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <math.h>
 
-int main(){
+// "&&"  "||"  "!"
 
+int main(){
 
     // Or operator ( || )
     printf("%d \n", 3>4  || 5>1 );   // will print 1
