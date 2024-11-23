@@ -34,31 +34,7 @@ int main()
         printf("Sunday\n");
         break;
     default:
-        printf("not a valid day!b \n");
-    }
-
-    // Nested switch :
-    int okay()
-    {
-        int number;
-        printf("enter number : ");
-        scanf("%d", &number);
-
-        if (number >= 0)
-            ;
-        printf("positive number \n");
-        if (number % 2 == 0)
-        {
-            printf("even number \n");
-        }
-        else
-        {
-            printf("add number \n");
-        }
-    }
-    else
-    {
-        printf("negative \n");
+        printf("not a valid day! \n");
     }
 
     return 0;
