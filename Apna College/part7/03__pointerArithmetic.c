@@ -5,8 +5,8 @@
 int main(){
     int age = 22;
     int *ptr = &age;
-    printf("ptr1 = %u\n", ptr); // This will print the address of age.
-    ptr++;        // This will add 4 bytes to the address
+    printf("ptr1 = %u\n", ptr);    // This will print the address of age.
+    ptr++;                        // This will add 4 bytes to the address
     printf("ptr2 = %u\n", ptr);
 
     return 0;
