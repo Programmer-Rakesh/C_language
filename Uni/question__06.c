@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Case question
+
 int main(){
     int ch;
     printf("Enter any one alphabet form A to Z : ");
