@@ -1,9 +1,9 @@
-// Write a C program to convert a decimal number to hexadecimal
-
 #include <stdio.h>
 
+// Write a C program to convert a decimal number to hexadecimal
+
 void decimalToHex(int num){
-    printf("Hexadecimal: %X\n", num); // %X prints the hexadecimal equivalent
+    printf("Hexadecimal: %X\n", num);
 }
 
 int main(){

@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 // Factorial of a number :
 
 int main(){
